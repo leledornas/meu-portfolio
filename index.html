@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;0,900;1,700;1,800&family=Figtree:wght@300;400;500;600&family=Fira+Code:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="style.css">
+
+  <title>Portfólio — Letícia Dornas</title>
+</head>
+<body>
+
+  <!-- Cursor personalizado -->
+  <div id="cursor"></div>
+  <div id="cursor-ring"></div>
+
+  <!--HEADER-->
+  <header>
+    <a href="#" class="logo-text" onclick="mostrarSecao('sobre')">LD<span>.</span></a>
+    <nav>
+      <ul>
+        <li><a href="#" onclick="mostrarSecao('sobre')"        id="nav-sobre"        class="active">sobre</a></li>
+        <li><a href="#" onclick="mostrarSecao('projetos')"     id="nav-projetos"                   >projetos</a></li>
+        <li><a href="#" onclick="mostrarSecao('certificados')" id="nav-certificados"               >certificados</a></li>
+        <li><a href="#" onclick="mostrarSecao('experiencia')"  id="nav-experiencia"                >experiência</a></li>
+        <li><a href="#" onclick="mostrarSecao('contato')"      id="nav-contato"                    >contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!--SOBRE-->
+    <section id="sobre">
+      <div class="interface">
+
+        <div class="sobre-grid">
+
+          <!-- Texto -->
+          <div class="sobre-left">
+            <p class="eyebrow anim">// quem sou eu</p>
+            <h1 class="sec-title anim">Letícia<br><em>Dornas</em></h1>
+
+            <div class="tag-stack anim">
+              <span class="tag hi">Ciência da Computação</span>
+              <span class="tag hi-yellow">CESAR School</span>
+              <span class="tag">AutoCAD Civil 3D</span>
+              <span class="tag">Python</span>
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">Recife, PE</span>
+              <span class="tag">18 anos</span>
+            </div>
+
+            <p class="anim">
+              Estudante de Ciência da Computação com raízes em infraestrutura urbana.
+              Passei pelo técnico de Saneamento Ambiental no IFPE, onde descobri a interseção
+              entre geometria aplicada, AutoCAD Civil 3D e tecnologia — e percebi que queria
+              ir mais fundo na computação.
+            </p>
+
+            <div class="social-links anim">
+              <a href="https://www.linkedin.com/in/letíciadornas/" target="_blank">
+                <i class="bi bi-linkedin"></i> LinkedIn
+              </a>
+              <a href="https://github.com/leledornas" target="_blank">
+                <i class="bi bi-github"></i> GitHub
+              </a>
+            </div>
+          </div>
+
+          <!-- Foto -->
+          <div class="sobre-right anim">
+            <div class="foto-wrapper">
+              <img src="images/1000423375-removebg-preview.jpg" alt="Letícia Dornas">
+            </div>
+          </div>
+
+        </div><!-- /sobre-grid -->
+
+        <!-- Currículo -->
+        <div class="cv-strip anim">
+          <div>
+            <p>documento</p>
+            <h3>Currículo Atualizado <em style="color:var(--rose)">→</em></h3>
+          </div>
+          <div class="cv-btns">
+            <a href="currículo/Letícia Dornas de Araújo.png" target="_blank" class="btn btn-outline">
+              <i class="bi bi-eye"></i> Visualizar
+            </a>
+            <a href="currículo/Letícia Dornas de Araújo.pdf" download class="btn btn-solid">
+              <i class="bi bi-download"></i> Baixar PDF
+            </a>
+          </div>
+        </div>
+
+      </div><!-- /interface -->
+    </section>
+
+    <!--PROJETOS-->
+    <section id="projetos">
+      <div class="interface">
+
+        <p class="eyebrow anim">// o que construí</p>
+        <h2 class="sec-title anim">Meus<br><em>Projetos</em></h2>
+
+        <div class="projetos-grid anim">
+
+          <div class="proj-card" onclick="window.location='#'">
+            <span class="proj-number">01</span>
+            <i class="bi bi-file-earmark-code-fill proj-icon"></i>
+            <h3>Portfólio</h3>
+            <p>Site de portfólio profissional estruturado para apresentar projetos, competências e trajetória.</p>
+            <i class="bi bi-arrow-up-right proj-arrow"></i>
+          </div>
+
+          <div class="proj-card" onclick="window.open('https://leticiadornas.itch.io/whispering-garden','_blank')">
+            <span class="proj-number">02</span>
+            <i class="bi bi-brush-fill proj-icon"></i>
+            <h3>Whispering Garden</h3>
+            <p>Jogo pixel art desenvolvido na plataforma Bitsy, com foco narrativo e exploração de ambientes.</p>
+            <i class="bi bi-arrow-up-right proj-arrow"></i>
+          </div>
+
+          <div class="proj-card" onclick="window.open('https://github.com/leledornas/fitplanner','_blank')">
+            <span class="proj-number">03</span>
+            <i class="bi bi-activity proj-icon"></i>
+            <h3>FitPlanner</h3>
+            <p>Sistema de planejamento fitness para organizar treinos, acompanhar metas e registrar evolução de forma prática.</p>
+            <i class="bi bi-arrow-up-right proj-arrow"></i>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!--CERTIFICADOS-->
+    <section id="certificados">
+      <div class="interface">
+
+        <p class="eyebrow anim">// conhecimento validado</p>
+        <h2 class="sec-title anim">Meus<br><em>Certificados</em></h2>
+
+        <div class="cert-list anim">
+
+          <div class="cert-row">
+            <div>
+              <h3>Fundamentos de Python</h3>
+              <p class="cert-meta">Cisco Networking Academy</p>
+            </div>
+            <div class="cert-badge">
+              <img src="certificados/cisco-removebg-preview.png" alt="Cisco">
+              <span>Cisco NetAcad</span>
+            </div>
+            <span class="cert-year">2026</span>
+          </div>
+
+          <div class="cert-row">
+            <div>
+              <h3>Fundamentos do Hardware do Computador</h3>
+              <p class="cert-meta">Cisco Networking Academy</p>
+            </div>
+            <div class="cert-badge">
+              <img src="certificados/cisco-removebg-preview.png" alt="Cisco">
+              <span>Cisco NetAcad</span>
+            </div>
+            <span class="cert-year">2026</span>
+          </div>
+
+          <div class="cert-row">
+            <div>
+              <h3>Gestão Ágil com Scrum e Kanban</h3>
+              <p class="cert-meta">Orango Senac</p>
+            </div>
+            <div class="cert-badge">
+              <img src="certificados/IMG_9899.png" alt="Orango Senac">
+              <span>Orango Senac</span>
+            </div>
+            <span class="cert-year">2026</span>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!--EXPERIÊNCIA-->
+    <section id="experiencia">
+      <div class="interface">
+
+        <p class="eyebrow anim">// trajetória</p>
+        <h2 class="sec-title anim">Experiência &amp;<br><em>Formação</em></h2>
+
+        <div class="timeline anim">
+          <div class="tl-item">
+            <p class="tl-period">2025 — MAR 2026</p>
+            <h3>Estagiária</h3>
+            <p class="tl-company">Altys Engenharia</p>
+            <p class="tl-desc">
+              Atuação em geometria e projetos de infraestrutura utilizando AutoCAD Civil 3D.
+              Desenvolvi pensamento analítico, resolução de problemas e trabalho em equipe num
+              ambiente técnico de engenharia.
+            </p>
+          </div>
+        </div>
+
+        <div class="formacao-grid anim">
+          <div class="form-card">
+            <p class="form-period">2026 — ATUAL</p>
+            <h3>Ciência da Computação</h3>
+            <p>CESAR School</p>
+          </div>
+          <div class="form-card">
+            <p class="form-period">2023 — 2025</p>
+            <h3>Técnico em Saneamento Ambiental</h3>
+            <p>Instituto Federal de Pernambuco</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!--CONTATO-->
+    <section id="contato">
+      <div class="interface">
+
+        <div class="contato-grid">
+
+          <div class="contato-left">
+            <p class="eyebrow anim">// vamos conversar</p>
+            <h2 class="anim">Entre em<br><em>contato</em></h2>
+            <p class="anim">
+              Aberta a oportunidades, colaborações e projetos interessantes.
+              Preencha o formulário ou me encontre nas redes.
+            </p>
+            <div class="contato-info anim">
+              <a href="https://www.linkedin.com/in/letíciadornas/" target="_blank">
+                <i class="bi bi-linkedin"></i> linkedin.com/in/letíciadornas
+              </a>
+              <a href="https://github.com/leledornas" target="_blank">
+                <i class="bi bi-github"></i> github.com/leledornas
+              </a>
+            </div>
+          </div>
+
+          <form action="https://formspree.io/f/mvzynoog" method="post" class="anim">
+            <div class="form-row">
+              <input type="text"  name="nome"     placeholder="Seu nome"   required>
+              <input type="email" name="email"    placeholder="Seu e-mail" required>
+            </div>
+            <textarea name="mensagem" placeholder="Sua mensagem" required></textarea>
+            <button type="submit" class="btn btn-solid">
+              Enviar Mensagem <i class="bi bi-arrow-right"></i>
+            </button>
+          </form>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!--FOOTER-->
+  <footer>
+    <p>© 2026 Letícia Dornas</p>
+    <p style="color:var(--text-3)">Desenvolvido com <span style="color:var(--rose)">♥</span> e código</p>
+    <div class="footer-links">
+      <a href="https://www.linkedin.com/in/letíciadornas/" target="_blank"><i class="bi bi-linkedin"></i></a>
+      <a href="https://github.com/leledornas"              target="_blank"><i class="bi bi-github"></i></a>
+    </div>
+  </footer>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+
+</body>
+</html>
