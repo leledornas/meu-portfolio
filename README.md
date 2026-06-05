@@ -56,16 +56,6 @@ Bootstrap Icons → ícones via CDN
 
 ---
 
-## // critérios atendidos
-
-- [x] **Layout** — uso de Flexbox e CSS Grid em todas as seções
-- [x] **Diversidade de componentes** — tags semânticas: `<header>` `<main>` `<section>` `<footer>` `<nav>` `<form>`
-- [x] **Navegação** — cinco páginas além do `index.html`
-- [x] **JavaScript** — cursor personalizado animado + sistema de animações de entrada com `requestAnimationFrame`
-- [x] **Marcação válida** — validado pelo [W3C Markup Validation Service](https://validator.w3.org/)
-- [x] **README** — com mais de um commit de atualização
-
----
 
 ## // como rodar localmente
 
