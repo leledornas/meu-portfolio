@@ -28,4 +28,19 @@ Este portfólio foi criado para apresentar minha trajetória, projetos, certific
 | `certificados.html` | Certificados obtidos com instituição e ano |
 | `experiencia.html` | Experiência profissional e formação acadêmica |
 | `contato.html` | Formulário de contato e links para redes sociais |
+ ---
  
+## Como executar localmente
+ 
+```bash
+git clone https://github.com/leledornas/meu-portfolio.git
+cd meu-portfolio
+# Abra o index.html no navegador
+```
+ 
+---
+ 
+## Contato
+ 
+- LinkedIn: [linkedin.com/in/letíciadornas](https://www.linkedin.com/in/letíciadornas/)
+- GitHub: [github.com/leledornas](https://github.com/leledornas)
