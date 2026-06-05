@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;0,900;1,700;1,800&family=Figtree:wght@300;400;500;600&family=Fira+Code:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Contato — Letícia Dornas</title>
+</head>
+<body>
+
+  <div id="cursor"></div>
+  <div id="cursor-ring"></div>
+
+  <header>
+    <a href="index.html" class="logo-text">LD<span>.</span></a>
+    <nav>
+      <ul>
+        <li><a href="index.html">sobre</a></li>
+        <li><a href="projetos.html">projetos</a></li>
+        <li><a href="certificados.html">certificados</a></li>
+        <li><a href="experiencia.html">experiência</a></li>
+        <li><a href="contato.html" class="active">contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!--CONTATO-->
+    <section id="contato">
+      <div class="interface">
+        <div class="contato-grid">
+
+          <div class="contato-left">
+            <p class="eyebrow anim">// vamos conversar</p>
+            <h2 class="anim">Entre em<br><em>contato</em></h2>
+            <p class="anim">
+              Aberta a oportunidades, colaborações e projetos interessantes.
+              Preencha o formulário ou me encontre nas redes.
+            </p>
+            <div class="contato-info anim">
+              <a href="https://www.linkedin.com/in/letíciadornas/" target="_blank">
+                <i class="bi bi-linkedin"></i> linkedin.com/in/letíciadornas
+              </a>
+              <a href="https://github.com/leledornas" target="_blank">
+                <i class="bi bi-github"></i> github.com/leledornas
+              </a>
+            </div>
+          </div>
+
+          <form action="https://formspree.io/f/mvzynoog" method="post" class="anim">
+            <div class="form-row">
+              <input type="text" name="nome" placeholder="Seu nome" required>
+              <input type="email" name="email" placeholder="Seu e-mail" required>
+            </div>
+            <textarea name="mensagem" placeholder="Sua mensagem" required></textarea>
+            <button type="submit" class="btn btn-solid">
+              Enviar Mensagem <i class="bi bi-arrow-right"></i>
+            </button>
+          </form>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2026 Letícia Dornas</p>
+    <p style="color:var(--text-3)">Desenvolvido com <span style="color:var(--rose)">♥</span> e código</p>
+    <div class="footer-links">
+      <a href="https://www.linkedin.com/in/letíciadornas/" target="_blank"><i class="bi bi-linkedin"></i></a>
+      <a href="https://github.com/leledornas" target="_blank"><i class="bi bi-github"></i></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
