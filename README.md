@@ -29,14 +29,3 @@ Este portfólio foi criado para apresentar minha trajetória, projetos, certific
 | `experiencia.html` | Experiência profissional e formação acadêmica |
 | `contato.html` | Formulário de contato e links para redes sociais |
  
----
- 
-## Critérios atendidos
- 
-- **Layout:** uso de Flexbox e CSS Grid para estruturação de todos os componentes e seções
-- **Diversidade de componentes:** uso de tags semânticas como `<header>`, `<main>`, `<section>`, `<footer>`, `<nav>`, `<form>`
-- **Navegação:** cinco páginas navegáveis além do `index.html`
-- **Recurso em JavaScript:** cursor personalizado animado e sistema de animações de entrada com `requestAnimationFrame`
-- **Marcação válida:** HTML validado pelo [W3C Markup Validation Service](https://validator.w3.org/)
-- **README:** com mais de um commit de atualização de conteúdo
----
