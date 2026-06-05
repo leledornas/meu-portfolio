@@ -134,7 +134,7 @@ nav ul li a.active {
 
 /* ─── SECTIONS ─── */
 main { padding-top: 64px; }
-section { min-height: 100vh; padding: 6rem 2.5rem; }
+section { min-height: 100vh; padding: 3rem 2.5rem; }
 
 .interface {
   max-width: 1080px;
