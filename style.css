@@ -350,8 +350,6 @@ section { min-height: 100vh; padding: 6rem 2.5rem; }
 }
 
 /* ─── PROJETOS ─── */
-#projetos { display: none; }
-
 .projetos-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -426,8 +424,6 @@ section { min-height: 100vh; padding: 6rem 2.5rem; }
 }
 
 /* ─── CERTIFICADOS ─── */
-#certificados { display: none; }
-
 .cert-list {
   display: flex;
   flex-direction: column;
@@ -484,8 +480,6 @@ section { min-height: 100vh; padding: 6rem 2.5rem; }
 }
 
 /* ─── EXPERIÊNCIA ─── */
-#experiencia { display: none; }
-
 .timeline {
   position: relative;
   padding-left: 2rem;
@@ -573,8 +567,6 @@ section { min-height: 100vh; padding: 6rem 2.5rem; }
 }
 
 /* ─── CONTATO ─── */
-#contato { display: none; }
-
 .contato-grid {
   display: grid;
   grid-template-columns: 1fr 1.4fr;
