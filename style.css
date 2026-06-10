@@ -94,7 +94,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: rgba(14,12,15,0.88);
+  background: var(--header-bg, rgba(14,12,15,0.88));
   backdrop-filter: blur(20px);
   border-bottom: 1px solid var(--border);
 }
@@ -709,4 +709,50 @@ a.cert-row {
   align-items: center;
   text-decoration: none;
   color: inherit;
+}
+
+/* ─── TEMA CLARO ─── */
+[data-theme="light"] {
+  --bg:       #faf8fb;
+  --bg-2:     #f2eef5;
+  --bg-3:     #ebe5ef;
+  --surface:  #e4dde9;
+  --border:      rgba(0,0,0,0.07);
+  --border-hi:   rgba(0,0,0,0.13);
+
+  --rose:     #c4607e;
+  --rose-dim: #9e3d5c;
+  --rose-bg:  rgba(196,96,126,0.08);
+
+  --yellow:     #9a7a10;
+  --yellow-dim: #7a6008;
+  --yellow-bg:  rgba(154,122,16,0.08);
+
+  --text-1: #1a1220;
+  --text-2: #5a4d66;
+  --text-3: #9c8fa8;
+  --header-bg: rgba(245,241,248,0.88);
+}
+
+
+/* ─── TOGGLE CLARO/ESCURO ─── */
+.theme-toggle-btn {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--text-2);
+  background: transparent;
+  border: 1px solid var(--border-hi);
+  border-radius: 4px;
+  padding: 0.35rem 0.75rem;
+  cursor: pointer;
+  margin-left: 0.5rem;
+  transition: color 0.2s, border-color 0.2s, background 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.theme-toggle-btn:hover {
+  color: var(--rose);
+  border-color: var(--rose);
+  background: var(--rose-bg);
 }
